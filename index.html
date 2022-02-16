@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/resources/gird.css" />
+    <link
+      rel="stylesheet"
+      href="./static/resources/fontawesome-free-6.0.0/css/all.css"
+    />
+    <link rel="stylesheet" href="./static/scss/main.css" />
+    <title>Haui</title>
+  </head>
+  <body>
+    <section id="header">
+      <div class="gird wide header">
+        <div class="row">
+          <a href="#" class="col">
+            <img src="./assets/images/logo-haui-size.png" alt="" />
+            HAUI
+          </a>
+
+          <div class="col search-box l-5 m-6 c-12">
+            <input type="text" placeholder="Search..." />
+            <button class="btn search-btn" id="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <div class="showOn-search-btn">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="showOn-menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="login">
+            <button class="btn login-btn" id="login-btn">Login</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="main">
+      <div class="gird wide">
+        <div class="row main">
+          <div class="col l-2 m-2 c-6">
+            <nav>
+              <ul>
+                <li class="log-user">
+                  <a href="#" class="btn login-btn">Login</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-house" title="home"></i> home</a
+                  >
+                </li>
+                <li>
+                  <a href="#new-post"
+                    ><i class="fa-solid fa-address-card" title="post"></i>
+                    post</a
+                  >
+                </li>
+                <li>
+                  <a href="#documents"
+                    ><i class="fa-solid fa-book" title="document"></i>
+                    document</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col l-10 m-10 c-12">
+            <div class="content">
+              <div id="new-post">
+                <h1 class="title">Bài viết mới <a href="#">Xem thêm</a></h1>
+                <div class="container new-posts row">
+                  <a href="#" class="col l-4 m-4 c-6 post">
+                    <h2 class="title">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Deserunt provident ipsa ad!
+                    </h2>
+                    <div class="post-img">
+                      <p class="view-btn">Xem</p>
+                      <img
+                        src="https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1MHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                        class=""
+                      />
+                    </div>
+
+                    <div class="post-footer">
+                      <div class="post-rate">
+                        <i class="fa-solid fa-eye"> 12</i>
+                        <i class="fa-solid fa-comments"> 43</i>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="#" class="col l-4 m-4 c-6 post">
+                    <h2 class="title">Bài viết 2</h2>
+                    <div class="post-img">
+                      <p class="view-btn">Xem</p>
+                      <img
+                        src="https://images.unsplash.com/photo-1640622658799-54e6039d189b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw3NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                        class=""
+                      />
+                    </div>
+
+                    <div class="post-footer">
+                      <div class="post-rate">
+                        <i class="fa-solid fa-eye"> 12</i>
+                        <i class="fa-solid fa-comments"> 43</i>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a href="#" class="col l-4 m-4 c-6 post">
+                    <h2 class="title">Bài viết 1</h2>
+                    <div class="post-img">
+                      <p class="view-btn">Xem</p>
+                      <img
+                        src="https://images.unsplash.com/photo-1504297050568-910d24c426d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw3OXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                        class=""
+                      />
+                    </div>
+
+                    <div class="post-footer">
+                      <div class="post-rate">
+                        <i class="fa-solid fa-eye"> 12</i>
+                        <i class="fa-solid fa-comments"> 43</i>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div id="reviews">
+                <h1 class="title">Chia sẻ <a href="#">Xem thêm</a></h1>
+                <div class="container new-posts row">
+                  <a href="#" class="col l-4 m-4 c-6 post review">
+                    <h2 class="title">Những chỗ trọ tốt quanh trường</h2>
+                    <div class="post-img">
+                      <p class="view-btn">Xem</p>
+                      <img
+                        src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                        alt=""
+                        class=""
+                      />
+                    </div>
+                    <div class="post-footer">
+                      <div class="post-author">
+                        <i class="fa-solid fa-user"></i>
+                        Nguyễn Văn Lộc
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="col l-4 m-4 c-6 post review">
+                    <h2 class="title">Cơ sở 1</h2>
+                    <div class="post-img">
+                      <p class="view-btn">Xem</p>
+                      <img
+                        src="https://images.unsplash.com/photo-1640622842924-fb0017b9d786?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                        class=""
+                      />
+                    </div>
+                    <div class="post-footer">
+                      <div class="post-author">
+                        <i class="fa-solid fa-user"></i>
+                        Nguyễn Văn Lộc
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="col l-4 m-4 c-6 post review">
+                    <h2 class="title">Quán ăn ngon tại cơ sở 3</h2>
+                    <div class="post-img">
+                      <p class="view-btn">Xem</p>
+                      <img
+                        src="https://images.unsplash.com/photo-1644919370500-01eb64d2a719?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                        class=""
+                      />
+                    </div>
+                    <div class="post-footer">
+                      <div class="post-author">
+                        <i class="fa-solid fa-user"></i>
+                        Nguyễn Văn Lộc
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div id="documents">
+                <h1 class="title">Tài liệu <a href="#">Xem thêm</a></h1>
+                <div class="container new-posts row">
+                  <a href="#" class="col l-4 m-4 c-6 post review">
+                    <h2 class="title">Giáo trình</h2>
+                    <div class="post-img">
+                      <p class="view-btn">Xem</p>
+                      <img
+                        src="https://images.unsplash.com/photo-1644847042929-cbda1bf06aef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                        class=""
+                      />
+                    </div>
+                    <div class="post-footer">
+                      <div class="post-author">
+                        <i class="fa-solid fa-user"></i> Author
+                        <span>4/5/2020</span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="col l-4 m-4 c-6 post review">
+                    <h2 class="title">Bài tập và đáp án</h2>
+                    <div class="post-img">
+                      <p class="view-btn">Xem</p>
+                      <img
+                        src="https://images.unsplash.com/photo-1640622308238-70e5f22fe0be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                        class=""
+                      />
+                    </div>
+                    <div class="post-footer">
+                      <div class="post-author">
+                        <i class="fa-solid fa-user"></i> Author
+                        <span>1/2/2021</span>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="col l-4 m-4 c-6 post review">
+                    <h2 class="title">Tài liệu tham khảo</h2>
+                    <div class="post-img">
+                      <p class="view-btn">Xem</p>
+                      <img
+                        src="https://images.unsplash.com/photo-1644857821648-c50efefb1f51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                        alt=""
+                        class=""
+                      />
+                    </div>
+                    <div class="post-footer">
+                      <div class="post-author">
+                        <i class="fa-solid fa-user"></i> Author
+                        <span>19/9/2019</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="gird wide">
+        <div class="row">
+          <h2 class="title col l-12 c-12 m-12">Liên hệ với chúng tôi</h2>
+          <form class="contact col l-4 c-8 m-6" action="#">
+            <div class="col">
+              <label for="name">Tên: </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nhập tên của bạn"
+              />
+            </div>
+            <div class="col">
+              <label for="imail">Gmail: </label>
+              <input
+                type="text"
+                name="imail"
+                id="imail"
+                placeholder="Gmail hoặc sđt"
+              />
+            </div>
+
+            <div class="col">
+              <label for="messages">Message: </label>
+              <textarea
+                name="message"
+                id="message"
+                style="resize: none"
+                cols="30"
+                rows="10"
+                placeholder="message"
+              ></textarea>
+            </div>
+            <div class="col">
+              <button class="btn send-btn c-12">Gửi</button>
+            </div>
+          </form>
+          <iframe
+            class="col l-8 c-12 m-6"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.473663078432!2d105.73291811443627!3d21.053735992302155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345457e292d5bf%3A0x20ac91c94d74439a!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1644983653942!5m2!1svi!2s"
+            width=""
+            height=""
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="gird wide">
+        <div class="row">
+          <div class="col l-6 m-6 c-9">
+            <div class="logo">
+              <a href="#"
+                ><img src="./assets/images/logo-haui-size.png" alt="" />Haui</a
+              >
+            </div>
+            <div>
+              <p>Email: contact@haui.edu.vn</p>
+              <p>Địa chỉ: Số 298 Đ. Cầu Diễn, Minh Khai, Bắc Từ Liêm, Hà Nội</p>
+            </div>
+          </div>
+          <div class="col l-3 m-3 c-4">
+            <h2>Liên hệ</h2>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Gmail</a></li>
+              <li><a href="#">Zalo</a></li>
+            </ul>
+          </div>
+          <div class="col l-3 m-3 c-4">
+            <h2>Hỗ trợ</h2>
+            <ul>
+              <li><a href="#">Qui định</a></li>
+              <li><a href="#">Điều khoản</a></li>
+              <li><a href="#">Bảo mật</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <p>Phát triển bởi team @<a href="#">ABC</a></p>
+        </div>
+      </div>
+    </section>
+    <script src="./static/js/main.js"></script>
+  </body>
+</html>
